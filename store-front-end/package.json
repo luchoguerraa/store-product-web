@@ -1,5 +1,5 @@
 {
-  "name": "react-redux-realworld-example-app",
+  "name": "store-front-end",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
@@ -24,7 +24,7 @@
     "superagent-promise": "^1.1.0"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "cross-env PORT=3000 react-scripts start",
     "build": "react-scripts build",
     "test": "cross-env PORT=3000 react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
