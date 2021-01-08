@@ -4,11 +4,10 @@ import SeachProduct from './SearchProducts/SearchProducts'
 import Product from './Product/Product'
 import Loader from '../Loader/Loader'
 import './products.css'
-import { on } from 'superagent'
 
 const Products = props =>{
   const { productsResponse, onSearch,onMount } = props
-  const {isLoading, errorMessage, products} = productsResponse
+  const {isLoading, products} = productsResponse
 
   useEffect(() => {
     onMount()
