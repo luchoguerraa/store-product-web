@@ -2,6 +2,9 @@
   "name": "store-front-end",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "12.11.1"
+    },
   "devDependencies": {
     "cross-env": "^5.1.4",
     "react-scripts": "1.1.1"
